@@ -7,6 +7,7 @@
 #banner{
     background-color: #e5547318;
     /* max-width: 1536px; */
+    padding-top: 50px;
 }
 
 .banner-container{
@@ -51,6 +52,112 @@
     width: 100%;
 }
 
+#feature{
+    padding-top: 170px;
+}
+
+.feature-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+
+}
+
+.feature-content{
+    text-align: center;
+    max-width: 594px;
+    margin: 0 auto;
+}
+
+.feature-content h2{
+    font-size: 2.7rem;
+    color: #272727;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+.feature-content p{
+    color: #2727279a;
+    font-size: 1rem;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+.feature-image{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap:24px;
+
+}
+.image-card{
+    /* max-width: 464px;
+    border: 1px solid black;
+   border-top-right-radius: 300px;
+   border-top-left-radius: 300px; */
+       max-width: 464px;
+  /*  height: 538px;*/              /* fixed height দাও */
+    display: flex;
+    justify-content: center;    /* horizontally center */
+    align-items: flex-end;      /* bottom এ বসাবে */
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
+    overflow: hidden; 
+   
+   
+}
+
+.image-card img{
+   width: 100%;
+    
+   
+    
+    
+}
+
+.ping-6{
+    background-color: #a7216245;
+    
+   /* border: 1px solid black; */
+   /* border-top-right-radius: 300px;
+   border-top-left-radius: 300px; */
+}
+
+.ping-5{
+    background-color: #0598a052;
+   
+}
+
+.ping-7{
+    background-color: #477d1152;
+}
+
+.flower-name{
+    margin-top: 16px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #272727;
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:576px){
@@ -61,6 +168,8 @@
        
         
     }
+
+   
   
 }
 
