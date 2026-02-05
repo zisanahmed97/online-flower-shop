@@ -140,8 +140,30 @@
     justify-content: space-around;
 }
 
+.delivery-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #27272717;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    padding: 87px 10px;
+}
 
+.delivery-card{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    /* padding: 87px 10px; */
+}
 
+.d-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 
 
@@ -168,6 +190,11 @@
        
         
     }
+.delivery-card{
+ flex-direction: column;
+    gap: 50px;
+    padding: 30px;
+}
 
    
   
