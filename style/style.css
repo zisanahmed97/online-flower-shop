@@ -47,6 +47,11 @@
     
 }
 
+.banner-container button:hover{
+    background-color: rgba(128, 128, 128, 0.322);
+     transform:  scale(0.80)  ;
+}
+
 .banner-image img{
     max-width: 634px;
     width: 100%;
@@ -103,6 +108,10 @@
     overflow: hidden; 
    
    
+}
+.image-card:hover{
+   
+     transform:  scale(0.80)  ;
 }
 
 .image-card img{
@@ -165,6 +174,10 @@
     align-items: center;
     
 }
+.d-card:hover{
+    
+     transform:  scale(0.80)  ;
+}
 
 #sale{
     background-color: #e5547317;
@@ -205,6 +218,10 @@
     color: #FFFFFF;
     font-size: 1.3rem;
     font-weight: bold;
+}
+.sale-content button:hover{
+     background-color: rgba(128, 128, 128, 0.322);
+     transform:  scale(0.80)  ;
 }
 
 .sale-content img{
