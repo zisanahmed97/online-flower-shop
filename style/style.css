@@ -148,6 +148,7 @@
     justify-content: space-around;
     align-items: center; */
     padding: 87px 10px;
+    margin-bottom: 128px;
 }
 
 .delivery-card{
@@ -165,6 +166,51 @@
     
 }
 
+#sale{
+    background-color: #e5547317;
+    padding: 100px 0px;
+}
+
+.sale-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sale-content{
+    max-width: 594px;
+    text-align: center;
+}
+.sale-content h2{
+    color: #272727;
+    font-size: 2.6rem;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+.sale-content h2 .off{
+    color:#E55473;
+}
+.sale-content p{
+    color:#272727a8;
+    font-size: 1.1rem;
+    margin-bottom: 32px;
+}
+
+.sale-content button{
+    background-color: #E55473;
+    border: none;
+    border-radius: 8px;
+    padding: 23px 43px ;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.sale-content img{
+    max-width: 318px;
+    width: 100%;
+}
 
 
 
@@ -194,6 +240,15 @@
  flex-direction: column;
     gap: 50px;
     padding: 30px;
+}
+.sale-container{
+    /* max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    flex-direction: column;
+    gap: 50px;
 }
 
    
