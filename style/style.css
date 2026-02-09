@@ -281,7 +281,7 @@
 .deal-container{
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
    background-image: url(../background.png);
     background-size: cover;
   background-position: center;
@@ -322,6 +322,9 @@
    border-radius: 8px;
    
 }
+.email:hover{
+    transform:  scale(0.80)  ;
+}
 
 .submit{
     background-color: #E55473;
@@ -333,7 +336,9 @@
     border-radius: 8px;
     margin-left: 16px;
 }
-
+.submit:hover{
+    transform:  scale(0.80)  ;
+}
 
 
 
@@ -377,6 +382,10 @@
     padding:20px;
 
     
+}
+
+.submit{
+    margin-top: 26px;
 }
 
    
