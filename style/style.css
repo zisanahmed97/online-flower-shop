@@ -229,8 +229,51 @@
     width: 100%;
 }
 
+#insta{
+    margin-top: 128px;
+}
+.insta-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
 
+}
+.insta-content{
+    text-align: center;
+    max-width: 594px;
+    margin:0 auto;
+}
 
+.insta-content h2{
+    font-weight: bolder;
+    color:#272727;
+    font-size: 2.6rem;
+    margin-bottom: 16px;
+
+}
+
+.insta-content p{
+    font-size: 1.2rem;
+    color:#2727276c;
+    margin-bottom: 16px;
+}
+
+.insta-cards{
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:24px;
+    margin-bottom: 128px;
+
+    
+}
+
+.insta-cards img{
+     width: 100%;
+  height: auto;
+}
 
 
 
@@ -266,6 +309,18 @@
     align-items: center; */
     flex-direction: column;
     gap: 50px;
+}
+.insta-cards{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:24px;
+    padding:20px;
+
+    
 }
 
    
