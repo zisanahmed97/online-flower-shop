@@ -346,8 +346,32 @@
     transform:  scale(0.80)  ;
      cursor: pointer;
 }
+footer{
+    background-color: #111010;
+    color: #FFFFFF;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    text-align: center;
+}
+.footer-content h2{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
 
+.flower-span{
+    color: #E55473;
+}
 
+.footer-content p{
+    /* max-width: 625px; */
+    margin-bottom:32px ;
+    line-height: 30px;
+}
+
+.footer-content h4{
+    color: #ffffff41;
+}
 
 
 
