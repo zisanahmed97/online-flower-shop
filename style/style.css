@@ -50,6 +50,7 @@
 .banner-container button:hover{
     background-color: rgba(128, 128, 128, 0.322);
      transform:  scale(0.80)  ;
+     cursor: pointer;
 }
 
 .banner-image img{
@@ -112,6 +113,7 @@
 .image-card:hover{
    
      transform:  scale(0.80)  ;
+      cursor: pointer;
 }
 
 .image-card img{
@@ -177,6 +179,7 @@
 .d-card:hover{
     
      transform:  scale(0.80)  ;
+      cursor: pointer;
 }
 
 #sale{
@@ -222,6 +225,7 @@
 .sale-content button:hover{
      background-color: rgba(128, 128, 128, 0.322);
      transform:  scale(0.80)  ;
+      cursor: pointer;
 }
 
 .sale-content img{
@@ -277,6 +281,7 @@
 
 .insta-cards img:hover{
      transform:  scale(0.80)  ;
+      cursor: pointer;
 }
 .deal-container{
     max-width: 1200px;
@@ -324,6 +329,7 @@
 }
 .email:hover{
     transform:  scale(0.80)  ;
+     cursor: pointer;
 }
 
 .submit{
@@ -338,6 +344,7 @@
 }
 .submit:hover{
     transform:  scale(0.80)  ;
+     cursor: pointer;
 }
 
 
