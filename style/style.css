@@ -278,8 +278,61 @@
 .insta-cards img:hover{
      transform:  scale(0.80)  ;
 }
+.deal-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid red;
+   background-image: url(../background.png);
+    background-size: cover;
+  background-position: center;
+   margin-bottom: 128px;
+   padding-bottom: 121px;
+ 
 
+    
+}
+.deal-content{
+    max-width: 866px;
+    margin: 0 auto;
+    text-align: center;
+}
 
+.deal-content h2{
+    font-size: 2.8rem;
+    font-weight: bolder;
+    color: #272727;
+    margin-bottom: 16px;
+    padding-top: 122px;
+
+}
+
+.deal-content p{
+    color: #2727275c;
+    font-size: 1.2rem;
+    margin-bottom: 46px;
+
+}
+
+.deal-content .email{
+   background-color: #FFFFFF;
+   color:#2727277b;
+   font-size: 1rem;
+   padding: 23px 450px 22px 22px;
+   border: none;
+   border-radius: 8px;
+   
+}
+
+.submit{
+    background-color: #E55473;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 18px 31px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 16px;
+}
 
 
 
