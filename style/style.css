@@ -275,6 +275,9 @@
   height: auto;
 }
 
+.insta-cards img:hover{
+     transform:  scale(0.80)  ;
+}
 
 
 
